@@ -10,6 +10,7 @@ function eig_module_spam_prevention_register() {
 		'name'     => 'spam-prevention',
 		'label'    => __( 'Spam Prevention', 'endurance' ),
 		'callback' => 'eig_module_spam_prevention_load',
+		'isActive' => true,
 	) );
 }
 
