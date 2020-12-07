@@ -1,10 +1,20 @@
- # Endurance Spam Prevention WordPress Module
+ <a href="https://endurance.com/" target="_blank">
+    <img src="https://bluehost.com/resources/logos/endurance.svg" alt="Endurance Logo" title="Endurance" align="right" height="42" />
+</a>
+
+ # Spam Prevention WordPress Module
+ [![Version Number](https://img.shields.io/github/v/release/bluehost/endurance-wp-module-spam-prevention?color=21a0ed&labelColor=333333)](https://github.com/bluehost/endurance-wp-module-spam-prevention/releases)
+[![License](https://img.shields.io/github/license/bluehost/endurance-wp-module-spam-prevention?labelColor=333333&color=666666)](https://raw.githubusercontent.com/bluehost/endurance-wp-module-spam-prevention/master/LICENSE)
  
  Uses the stopforumspam.com API to add basic spam prevention to logins and comments.
  
  ## Installation
  
  ### 1. Add the Bluehost Satis to your `composer.json`.
+ 
+  ```bash
+ composer config repositories.bluehost composer https://bluehost.github.io/satis
+ ```
  
  ### 2. Require the `bluehost/endurance-wp-module-spam-prevention` package.
  
