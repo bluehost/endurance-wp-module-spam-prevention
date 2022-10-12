@@ -1,6 +1,7 @@
 {
   "name": "bluehost/endurance-wp-module-spam-prevention",
   "description": "Bluehost Spam Prevention Module",
+  "abandoned": true,
   "type": "library",
   "license": "GPL-2.0-or-later",
   "authors": [
